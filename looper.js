@@ -8,11 +8,11 @@ const pushArr = toBuff.split('');
 
 
 pushArr.forEach(function(value){
-    buffer.push(Buffer(value));
+  buffer.push(Buffer(value));
 });
-console.log(buffer);
-fs.writeFile("./files/loop.js", buffer.join('') ,(err) => {
-    if(err) throw err;
-    console.log('created loop.js');
-})
+
+fs.writeFile('./files/loop.js', buffer.join('') ,(err) => {
+  if(err) throw err;
+  console.log('created loop.js');
+});
 

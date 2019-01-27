@@ -1,42 +1,40 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Project Buffers
 
-### Author: Student/Group Name
+### Author: George Raymond
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/georgeraymond92/04-buffers)
+* [travis](https://www.travis-ci.com/georgeraymond92/04-buffers)
+
 
 ### Modules
-#### `modulename.js`
+#### 'read-pairs.js'
+#### 'looper.js'
+
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `looper -> loop.js`
+calling looper.js creates loop.js
 
-###### `bar(array) -> array`
-Usage Notes or examples
-
+###### `read-pairs -> pair-program.html`
+calling read pairs reads the data from /files/pair-programming.txt 
+###### `articler.js`
+* converts the contents of the pair-programming.txt file to html;
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+npm i
+### Packages
+* eslint
+* jest
+
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+running file looper.js in node will create a file called loop.js.
+loop.js calles a funtion that console logs the name array
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+
 
 #### UML
 Link to an image of the UML for your application and response to events
