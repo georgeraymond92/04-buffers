@@ -21,8 +21,8 @@ calling looper.js creates loop.js
 
 ###### `read-pairs -> pair-program.html`
 calling read pairs reads the data from /files/pair-programming.txt 
-###### `To be Implemented`
-* write new file type pair-program.html;
+###### `articler.js`
+* converts the contents of the pair-programming.txt file to html;
 ### Setup
 npm i
 ### Packages
@@ -34,8 +34,6 @@ npm i
 running file looper.js in node will create a file called loop.js.
 loop.js calles a funtion that console logs the name array
 
-#### Tests
-*( not yet implemented )
 
 
 #### UML
