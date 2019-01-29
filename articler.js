@@ -1,7 +1,7 @@
 'use strict';
 
-let path = './files/articler.txt';
-
+let path = './files/pair-programming.txt';
+let target = './files/articled.html';
 const fs = require('fs');
 
 const alterData = require('./article-module.js').alterData;
@@ -12,7 +12,7 @@ fs.readFile(path, function callback(err, data) {
 
   let newData = alterData(data);
   
-  fs.writeFile(path, newData, (err, data) => {
+  fs.writeFile(target, newData, (err, data) => {
     if(err) {throw Error(err); }
   });
 });
